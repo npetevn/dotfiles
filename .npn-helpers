@@ -1,0 +1,7 @@
+#!/bin/bash
+
+function genmig {
+  local name=$1
+
+  touch `date +%Y%m%d%H%M%S`-$name.js
+}
