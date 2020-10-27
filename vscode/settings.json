@@ -1,0 +1,68 @@
+{
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+    "editor.wordWrapColumn": 80,
+    "editor.folding": true,
+    "editor.showFoldingControls": "always",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+
+    "files.hotExit": "onExit",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/typings": true,
+        "**/*.sqlite3": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.autoSave": "onWindowChange",
+    "files.autoSaveDelay": 1000,
+
+    "explorer.openEditors.visible": 0,
+
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    "terminal.external.osxExec": "iterm",
+    "terminal.explorerKind": "integrated",
+    "terminal.integrated.confirmOnExit": false,
+    "terminal.integrated.scrollback": 10000,
+
+    "docker.attachShellCommand.linuxContainer": "/bin/bash",
+    "git.autofetch": true,
+    "window.zoomLevel": 2,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+    // (Sorry: Changing them needs an editor restart for now!)
+    "indentRainbow.colors": [
+        "rgba(192,192,192,0.2)",
+        "rgba(160,160,160,0.2)",
+        "rgba(96,96,96,0.2)",
+        "rgba(64,64,64,0.2)",
+        "rgba(32,32,32,0.2)"
+    ],
+
+    // The indent color if the number of spaces is not a multiple of "tabSize".
+    "indentRainbow.errorColor": "rgba(128,32,32,0.3)",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": true,
+    "editor.wordWrap": "on"
+}
