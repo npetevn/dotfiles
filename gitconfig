@@ -1,0 +1,29 @@
+[user]
+	name = Nikolay Nikolov
+	email = npn@cloudxcel.com
+[core]
+    excludesfile = /Users/npn/.gitignore_global
+	hooksPath = .githooks-cl/
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    grep = auto
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    fix = "!f() { nvim -p `git diff --name-only | uniq`; }; f"
+[branch]
+	autosetuprebase = always
+[push]
+    default = tracking
+[commit]
+	template = /Users/npn/.git-commit-template
